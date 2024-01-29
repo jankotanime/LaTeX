@@ -1,0 +1,102 @@
+\documentclass{article}
+
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+
+\title{Stepikowy Artykuł}
+\author{Jan Gasztold}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+    Przykładowy artykuł losowe słowa generator
+\end{abstract}
+
+\section{Rozdział}
+
+\subsection{Sekcja}
+
+\underline{Każdy} chociaż \underline{raz} słyszał o tej firmie \textbf{produkującej zabawki}, ponieważ Lego opanowało rynek międzynarodowy już dziesiątki lat temu. Ale jak się im to udało? Głównie za sprawą świetnego pomysłu- zabawki te to nic innego jak \textbf{plastikowe części} - potocznie nazywane klockami - taki jeden klocek nie ma w sobie nic szczególnego, jednak specjalne wypustki i gniazda pozwalają na wiele kombinacji łączenia. Dzięki temu ograniczeniem dla osoby bawiącej się jest \textbf{tylko} jej wyobraźnia.
+
+Aktualnie można nie tylko kupić skrzynki z pojedynczymi częściami, ale w większości przypadków ludzi interesują zestawy. Na początku zestawy były tylko spod przedsiębiorstwa Lego, jednak ogromnym sukcesem okazało się nawiązywanie współpracy \textit{Lego} z różnymi markami (najczęściej posiadające własne uniwersum filmowe) takimi jak ,,\textit{Star Wars}", ,,\textit{Harry Potter}", czy ,,\textit{Minecraft}". Dzięki temu zabawkami \textit{Lego} nie tylko fascynują się dzieci, ale także \underline{dorośli}, \underline{fani filmowi}, czy tzw. \textit{kolekcjonerzy}. \cite{autor1}
+
+\subsection{Sekcja}
+
+\lipsum[1]
+
+\subsubsection{Podsekcja}
+
+\lipsum[1]
+
+\section{Rozdział}
+
+\lipsum[1]
+
+\subsection{Sekcja}
+
+\subsubsection{Podsekcja}
+
+\lipsum[1]
+
+Tekst z zastosowanym \textbf{pogrubieniem}, \textit{kursywą} oraz \underline{podkreśleniem}.
+
+\subsection{Matematyka}
+
+\subsubsection{Wzór na równoważność masy i energii} 
+$E=mc^2$.
+
+\subsubsection{Wzór na sigme (suma ciągu)} 
+$\sum_{i=1}^n=i$. \cite{autor2}
+
+\section{Rysunki}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{image2.png}
+    \caption{Doktor Habilitowany Zdzisław Catowski}
+    \label{fig:rys1}
+\end{figure}
+
+\lipsum[2]
+
+\begin{figure}[h]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        <2 & 2-3 & 3-4 & 4-5 & 5-6 \\
+        \hline
+        120-160 & 160-210 & 210-260 & 240-320 & 250-360 \\
+        \hline
+    \end{tabular}
+    \caption{Tabela jedzenia kotów.}
+    \label{tab:tabela1}
+\end{figure}
+
+\section{Odniesienia}
+
+Odniesienie do Rysunku \ref{fig:rys1} oraz Tabeli \ref{tab:tabela1}. Jak można zauważyć Doktor Catowski był kotem
+
+\centering
+    \begin{minipage}{0.4\textwidth}
+        \includegraphics[width=\linewidth]{image1.png}
+        \label{fig:rys2}
+    \end{minipage}
+    \hspace{0.05\textwidth}
+    \begin{minipage}{0.5\textwidth}
+        Trygonometria
+    \end{minipage}
+
+\section{Podsumowanie}
+
+\lipsum[2]
+
+\begin{thebibliography}{9}
+    \bibitem {autor1} Adamski, Maciej. \emph{Strusie i inne ssaki}. University of Gdansk, 2003.
+    \bibitem{autor2} Catowski Zdzisław. \emph{Elementary Number Theory}. Kocie Wydawnictwo, 1998.
+\end{thebibliography}
+
+\end{document}
